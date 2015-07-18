@@ -1,0 +1,78 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#welcomeHeader {
+    height: 85vh;
+    background-color: #009688;
+}
+
+.navBar {
+    position: fixed;
+}
+
+#pacman {
+    width: 0;
+    height: 0;
+    border-right: 22px solid transparent;
+    border-top: 22px solid #fff;
+    border-left: 22px solid #fff;
+    border-bottom: 22px solid #fff;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+    border-bottom-left-radius: 22px;
+    border-bottom-right-radius: 22px;
+}
+
+#circle {
+    width: 8px;
+    height: 8px;
+    background: #fff;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 2px;
+    margin-left: 15px;
+}
+
+.menuIcons {
+    margin-top: 4px;
+    color: #fff;
+}
+
+.menuIcon {
+    margin-top: 4px;
+    color: #fff;
+    font-size: 36px;
+}
+
+
+/* menu FAB */
+.fabSpeedDialdemoBasicUsage .text-capitalize {
+  text-transform: capitalize; }
+.fabSpeedDialdemoBasicUsage .md-fab:hover, .fabSpeedDialdemoBasicUsage .md-fab.md-focused {
+  background-color: #000 !important; }
+.fabSpeedDialdemoBasicUsage p.note {
+  font-size: 1.2rem; }
+  
+#triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 17px solid transparent;
+    border-right: 17px solid transparent;
+    border-top: 17px solid #009688;
+    margin: 0 auto;
+}
+
+.header1 {
+    color: white;
+    font-size: 3.5em;
+    margin: 15% auto 0 auto;
+}
+
+.subHeader {
+    color: #B2DFDB;
+    margin: 15px auto 0 auto;
+}
