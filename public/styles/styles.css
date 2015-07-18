@@ -6,7 +6,7 @@ html, body {
 }
 
 #welcomeHeader {
-    height: 85vh;
+    height: 90vh;
     background-color: #009688;
 }
 
@@ -69,10 +69,26 @@ html, body {
 .header1 {
     color: white;
     font-size: 3.5em;
-    margin: 15% auto 0 auto;
+    margin: 18% auto 0 auto;
 }
 
 .subHeader {
     color: #B2DFDB;
-    margin: 15px auto 0 auto;
+    margin: 30px auto 0 auto;
+}
+
+.sectionTwo {
+    height: 1000px;
+}
+
+.bodyHeader {
+    color: #111;
+    font-size: 2.5em;
+    margin: 90px auto 0 auto;
+}
+
+.bodySubheader {
+    color: #777;
+    font-size: 1.5em;
+    margin: 30px auto;
 }
